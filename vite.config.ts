@@ -7,7 +7,7 @@ export default defineConfig({
 		port: 8000,
 	},
 	build: {
-		outDir: "site",
+		outDir: "docs",
 		emptyOutDir: true,
 	},
 });
