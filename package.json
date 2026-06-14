@@ -1,0 +1,43 @@
+{
+	"name": "reveal.js",
+	"version": "1.0.0",
+	"description": "Presentación Reveal.js sobre el avance del proyecto Eficiencia energética UCU.",
+	"type": "module",
+	"private": true,
+	"exports": {
+		".": {
+			"import": "./dist/reveal.mjs",
+			"require": "./dist/reveal.js"
+		},
+		"./reveal.css": "./dist/reveal.css",
+		"./reset.css": "./dist/reset.css",
+		"./theme/*": "./dist/theme/*",
+		"./plugin/highlight/monokai.css": "./dist/plugin/highlight/monokai.css",
+		"./plugin/highlight": {
+			"import": "./dist/plugin/highlight.mjs",
+			"require": "./dist/plugin/highlight.js"
+		},
+		"./plugin/markdown": {
+			"import": "./dist/plugin/markdown.mjs",
+			"require": "./dist/plugin/markdown.js"
+		},
+		"./plugin/notes": {
+			"import": "./dist/plugin/notes.mjs",
+			"require": "./dist/plugin/notes.js"
+		},
+		"./plugin/zoom": {
+			"import": "./dist/plugin/zoom.mjs",
+			"require": "./dist/plugin/zoom.js"
+		}
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview --host 127.0.0.1 --port 4173"
+	},
+	"devDependencies": {
+		"@types/node": "^24.9.2",
+		"typescript": "^6.0.2",
+		"vite": "^8.0.3"
+	}
+}
