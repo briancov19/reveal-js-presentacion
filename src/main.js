@@ -2,10 +2,6 @@ import Reveal from "../dist/reveal.mjs";
 import RevealHighlight from "../dist/plugin/highlight.mjs";
 import RevealNotes from "../dist/plugin/notes.mjs";
 import RevealZoom from "../dist/plugin/zoom.mjs";
-import "../dist/reset.css";
-import "../dist/reveal.css";
-import "../dist/plugin/highlight/monokai.css";
-import "./styles.css";
 
 Reveal.initialize({
 	hash: true,
