@@ -6,6 +6,9 @@ export default defineConfig({
 		host: "127.0.0.1",
 		port: 8000,
 	},
+	optimizeDeps: {
+		entries: ["index.html"],
+	},
 	build: {
 		outDir: "docs",
 		emptyOutDir: true,

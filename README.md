@@ -31,7 +31,7 @@ http://127.0.0.1:8000/
 npm run build
 ```
 
-La versión construida queda en la carpeta `site`.
+La versión construida queda en la carpeta `docs`.
 
 ## Estructura principal
 
